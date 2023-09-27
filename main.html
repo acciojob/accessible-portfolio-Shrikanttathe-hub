@@ -9,8 +9,17 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<h1>My portfolio</h1>
-	<nav>
+	<header>
+	<h1 aria-level="1">My portfolio</h1>
+	</header>
+	<nav aria-label="Main Navigation">
+		<ul role="list">
+            <li role="listitem"><a href="#about">About</a></li>
+            <li role="listitem"><a href="#portfolio">Portfolio</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+	<main>
 	<img src="https://plus.unsplash.com/premium_photo-1677260349790-b3372d0acc05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwbHVzLWZlZWR8NzB8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="img">
    <p>Hello, I'm [Your Name].
 
@@ -29,8 +38,11 @@ Let's connect and explore new horizons together!</p>
 	<li>html</li>
 	<li>css</li>
 	<li>javascript</li>
-</ul>		
-	</nav>
+</ul>	
+	</main>
+	 <footer>
+        <p>&copy; 2023 My Portfolio</p>
+    </footer>
 		<script type="text/javascript" src="./script.js">
 </script>
 
