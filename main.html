@@ -7,20 +7,17 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <!-- Heading with ARIA role "heading" -->
-        <h1 aria-level="1">My Accessible Portfolio</h1>
-    </header>
+     <h1 role="heading">My Accessible Portfolio</h1>
 
     <!-- Navigation bar with ARIA role "navigation" -->
-    <nav aria-label="Main Navigation">
+    <nav role="navigation">
         <ul role="list">
+            <!-- List items with ARIA role "listitem" -->
             <li role="listitem"><a href="#about">About</a></li>
             <li role="listitem"><a href="#portfolio">Portfolio</a></li>
             <li role="listitem"><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-
     <main>
         <!-- Image with ARIA role "img" and alt attribute -->
         <img src="https://plus.unsplash.com/premium_photo-1677260349702-12560785ac11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwbHVzLWZlZWR8Njh8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="My Portfolio Image">
